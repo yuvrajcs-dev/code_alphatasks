@@ -53,7 +53,7 @@ st.markdown('<div class="main-title">🤖 FAQ Chatbot</div>', unsafe_allow_html=
 st.markdown('<div class="sub-text">Ask any question related to our services</div>', unsafe_allow_html=True)
 
 # Load dataset
-df = pd.read_csv("faq_data_large (1).csv")
+df = pd.read_csv("faq_data_large.csv")
 
 # Preprocessing function
 def preprocess_text(text):
